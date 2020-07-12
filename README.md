@@ -1,4 +1,41 @@
-# The Architect theme
+# TODOs
+* Add news section with 'awards/ media publicity'
+* Add 'side projects' (IIT Tutorials, buddy talk, placementtricks, starting with EC2day).
+* Create .pub link with publicaiton bibtex (Refer https://github.com/BibBase/bibbase.github.io)
+
+# UPDATE
+
+**12-Jul-2020**
+
+## How to change the contents of this website and check it locally?
+
+* Run the following command
+
+        $ bundle exec jekyll serve
+        Configuration file: /home/vineesh/github/vineeshvs.github.io/_config.yml
+                    Source: /home/vineesh/github/vineeshvs.github.io
+            Destination: /home/vineesh/github/vineeshvs.github.io/_site
+        Incremental build: disabled. Enable with --incremental
+            Generating... 
+                            done in 0.398 seconds.
+        Auto-regeneration: enabled for '/home/vineesh/github/vineeshvs.github.io'
+            Server address: http://127.0.0.1:4000
+        Server running... press ctrl-c to stop.
+* Open any browser and look for http://127.0.0.1:4000
+
+## How did I buid this website?
+### Clone an existing template
+* The theme can be selected from https://github.com/vineeshvs/lifeHacks/settings/pages/themes?source=master
+* The architect theme was cloned from https://github.com/pages-themes/architect
+* Followed the instructions similar to https://blog.usejournal.com/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd 
+### Change the contents locally
+* I cloned the repository after forking it.
+* Changed the contents and viewed the changes by following https://docs.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll
+* Pushed the changes back to Git server.
+### Check the changes
+* Open vineeshvs.github.io and check
+
+# [Reference] The Architect theme
 
 [![Build Status](https://travis-ci.org/pages-themes/architect.svg?branch=master)](https://travis-ci.org/pages-themes/architect) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-architect.svg)](https://badge.fury.io/rb/jekyll-theme-architect)
 
