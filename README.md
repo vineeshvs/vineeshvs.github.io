@@ -2,6 +2,8 @@
 * Add news section with 'awards/ media publicity'
 * Add 'side projects' (IIT Tutorials, buddy talk, placementtricks, starting with EC2day).
 * Create .pub link with publicaiton bibtex (Refer https://github.com/BibBase/bibbase.github.io)
+* Replace static web links for different pages with relative ones (e.g., publications.html)
+* Enable Google analytics.
 
 # UPDATE
 

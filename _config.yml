@@ -3,3 +3,12 @@ description: Final year M.Tech + Ph.D. Dual Degree student at the department of 
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
+github:
+  zip_url: http://example.com/download.zip
+  education_url: https://vineeshvs.github.io/education.html
+  publications_url: https://vineeshvs.github.io/publications.html
+  research_url: https://vineeshvs.github.io/research.html
+  awards_url: https://vineeshvs.github.io/awards.html
+  volunteering_url: https://vineeshvs.github.io/volunteering.html
+  interests_url: https://vineeshvs.github.io/interests.html
+  contact_url: https://vineeshvs.github.io/contact.html

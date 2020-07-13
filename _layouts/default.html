@@ -24,9 +24,9 @@
         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
         {% endif %}
-        {% if site.github.is_user_page %}
+        <!-- {% if site.github.is_user_page %}
           <a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a>
-        {% endif %}
+        {% endif %} -->
       </div>
     </header>
 
@@ -47,6 +47,44 @@
               .tar.gz file
             </a>
           {% endif %}
+          <!-- Adding links to different pages -->
+          <dl>
+            <dt>
+              <a href="{{ site.github.education_url }}">
+                <large> Education </large> 
+              </a>
+            </dt>
+            <dt>
+              <a href="{{ site.github.publicaitons_url }}">
+                Publications
+              </a>
+            </dt>
+            <dt>
+              <a href="{{ site.github.research_url }}">
+                Research
+              </a>
+            </dt>
+            <dt>
+              <a href="{{ site.github.awards_url }}">
+                Awards
+              </a>
+            </dt>
+            <dt>
+              <a href="{{ site.github.volnteering_url }}">
+                Volunteering
+              </a>
+            </dt>
+            <dt>
+              <a href="{{ site.github.interests_url }}">
+                Interests
+              </a>
+            </dt>
+            <dt>
+              <a href="{{ site.github.contact_url }}">
+                Contact
+              </a>
+            </dt>            
+          </dl>
 
           {% if site.github.is_project_page %}
             <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
